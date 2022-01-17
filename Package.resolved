@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "pop",
+        "repositoryURL": "https://github.com/ai-ander/pop",
+        "state": {
+          "branch": "master",
+          "revision": "c8de7524c3adcec32a90eba59e1c6d24e5ee8052",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
