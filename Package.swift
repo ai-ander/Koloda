@@ -6,8 +6,8 @@ import PackageDescription
 let package = Package(
     name: "Koloda",
     platforms: [
-        .iOS(.v13)
-    ],
+            .iOS(.v9)
+        ],
     products: [
         .library(
             name: "Koloda",
@@ -20,7 +20,10 @@ let package = Package(
         .target(
             name: "Koloda",
             dependencies: [.product(name: "pop", package: "pop")],
-            path: "Sources"
+            path: "Sources/Koloda/Classes/KolodaView",
+            linkerSettings: [
+                            .linkedFramework("UIKit")
+                        ]
         )
     ],
     swiftLanguageVersions: [.v5]
