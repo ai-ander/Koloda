@@ -14,7 +14,7 @@ let package = Package(
             targets: ["Koloda"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ai-ander/pop", .branch("master")),
+        .package(url: "https://github.com/ai-ander/pop", from: "1.1.0"),
     ],
     targets: [
         .target(

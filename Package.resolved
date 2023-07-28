@@ -5,9 +5,9 @@
         "package": "pop",
         "repositoryURL": "https://github.com/ai-ander/pop",
         "state": {
-          "branch": "master",
-          "revision": "c8de7524c3adcec32a90eba59e1c6d24e5ee8052",
-          "version": null
+          "branch": null,
+          "revision": "cb19988d1fa780d3d1090093b3a0304a70ef209d",
+          "version": "1.1.0"
         }
       }
     ]
